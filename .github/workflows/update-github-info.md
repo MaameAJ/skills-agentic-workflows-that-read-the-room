@@ -18,6 +18,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -35,11 +36,12 @@ You update Mona's GitHub Info site content using recent official GitHub sources.
 1. Read `notes/mona-notes.md` for Mona's editorial guidance.
 2. Fetch and review <https://github.blog/latest/>.
 3. Fetch and review <https://github.blog/changelog/>.
-4. Inspect `site/content/github-info.md` to understand the current content and tone.
+4. Fetch and review <https://awesome-copilot.github.com/workflows/>.
+5. Inspect `site/content/github-info.md` to understand the current content and tone.
 
 ## Content Update
 
-Update `site/content/github-info.md` with short, practical GitHub updates that help developers learn GitHub faster. Prefer a concise summary over a broad digest. Mention the source whenever a change comes from the GitHub Blog or GitHub Changelog.
+Update `site/content/github-info.md` with short, practical GitHub updates that help developers learn GitHub faster. Prefer a concise summary over a broad digest. Include useful Awesome Copilot workflows from <https://awesome-copilot.github.com/workflows/> when they fit Mona's guidance. Mention the source whenever a change comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 
 Only edit `site/content/github-info.md` unless a directly related content fix is required.
 
